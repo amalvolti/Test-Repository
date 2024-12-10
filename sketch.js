@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(0,0,0,10);
 
-  circle(200, 200, 100);
+  circle(200, 200, sin(frameCount/10)*200);
 }
